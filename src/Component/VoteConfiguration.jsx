@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
 
 const VoteConfiguration = () => {
     return (
-        <div className='w-3/12 flex'>
-            <div className=' sm:hidden md:flex shadow-lg h-screen bg-[#0D8343] p-7'>
+        <div className='flex '>
+            <div className=' sm:hidden md:flex shadow-lg h-screen w-3/12 '>
                 <VoteConfigurationNav />
             </div>
             <div className='w-9/12 h-screen overflow-y-srcoll'>

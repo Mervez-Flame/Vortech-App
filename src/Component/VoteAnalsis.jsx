@@ -6,11 +6,11 @@ import VoteConfigurationNav from "./VoteConfigurationNav";
 
 const VoteAnal = () => {
   return (
-    <div>
+    <div className="flex">
       <div className="w-3/12">
         <VoteConfigurationNav />
       </div>
-      <div className="w-9/12 overflow-y-scroll max-w-[1240px] mx-auto py-16 px-4   ">
+      <div className="w-9/12 overflow-y-scroll max-w-[1240px] mx-auto py-16 px-4">
         {/* MENU */}
 
         <div>

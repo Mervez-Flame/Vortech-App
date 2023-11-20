@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const FourthLanding = () => {
   return (
 
-    <div className='w-full h-screen relative '>
+    <div className='w-full h-screen relative overflow-y-scroll  '>
       <img className='w-full h-full object-cover' src={background3} alt="backgroundd" />
       <div className='absolute top-0 flex items-center md:justify-center md:px-[400px] flex-col md:items-center md:text-3xl'>
 
